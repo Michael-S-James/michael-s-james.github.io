@@ -19,5 +19,5 @@ button.addEventListener('click', () => {
     '#' + Math.floor(Math.random() * 16777215).toString(16);
 
   // ✅ Open GitHub in a new tab
-  window.open('https://github.com/michael-s-james', '_blank');
+  window.open('https://drive.google.com/file/d/19fRzl4dsw88jKDm1K6iDS0CM2LPf87c2/view?usp=sharing', '_blank');
 });
