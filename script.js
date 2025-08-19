@@ -4,11 +4,10 @@ const message = document.getElementById('message');
 button.addEventListener('click', () => {
   // Random fun fact
   const facts = [
-    "JavaScript can run in your browser!",
-    "GitHub Pages hosts static websites for free.",
-    "You just clicked a button using JavaScript!",
-    "You can style this page with CSS.",
-    "Hello from michael-s-james.github.io!"
+    "You can build custom visualizations in RShiny.",
+    "Tableau Public is a great way to work on your Tableau skills for free.",
+    "Powerapps is a great low-code solution for app development",
+    "The Schwartzchild radius of a black hole is the point where gravity is so strong, not even light can escape."
   ];
 
   const randomFact = facts[Math.floor(Math.random() * facts.length)];
