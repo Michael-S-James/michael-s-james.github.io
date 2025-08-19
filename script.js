@@ -9,7 +9,9 @@ button.addEventListener('click', () => {
     "You just clicked a button using JavaScript!",
     "You can style this page with CSS.",
     "Hello from michael-s-james.github.io!"
-  ];
+  ],
+    window.open('https://example.com', '_blank')
+    ;
 
   const randomFact = facts[Math.floor(Math.random() * facts.length)];
   message.textContent = randomFact;
