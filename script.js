@@ -9,13 +9,12 @@ button.addEventListener('click', () => {
     "You just clicked a button using JavaScript!",
     "You can style this page with CSS.",
     "Hello from michael-s-james.github.io!"
-  ],
-    window.open('https://drive.google.com/file/d/19fRzl4dsw88jKDm1K6iDS0CM2LPf87c2/view?usp=sharing', '_blank')
-    ;
+  ];
 
   const randomFact = facts[Math.floor(Math.random() * facts.length)];
   message.textContent = randomFact;
 
   // Change background color
   document.body.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+  window.open('https://drive.google.com/file/d/19fRzl4dsw88jKDm1K6iDS0CM2LPf87c2/view?usp=sharing', '_blank');
 });
